@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Goonj</string>
+    <string-array name="items">
+        <item>Home</item>
+        <item>Register</item>
+        <item>Sponsor</item>
+        <item>About Us</item>
+        <item>Contact Us</item>
+    </string-array>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_register</item>
+        <item>@drawable/ic_social</item>
+        <item>@drawable/ic_aboutus</item>
+        <item>@drawable/ic_contact</item>
+    </array>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+</resources>

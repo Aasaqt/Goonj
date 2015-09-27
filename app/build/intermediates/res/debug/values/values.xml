@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/aasaqt/AndroidstudioProjects/NavigationDrawer/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="items">
+        <item>Home</item>
+        <item>Register</item>
+        <item>Sponsor</item>
+        <item>About Us</item>
+        <item>Contact Us</item>
+    </string-array>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_register</item>
+        <item>@drawable/ic_social</item>
+        <item>@drawable/ic_aboutus</item>
+        <item>@drawable/ic_contact</item>
+    </array>
+    <!-- From: file:/home/aasaqt/AndroidstudioProjects/NavigationDrawer/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="contact_text_color">#0000ff</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#303030</color>
+    <color name="list_item_title">#fff</color>
+    <!-- From: file:/home/aasaqt/AndroidstudioProjects/NavigationDrawer/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_websearch">Web search</string>
+    <string name="app_name">Goonj</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+</resources>

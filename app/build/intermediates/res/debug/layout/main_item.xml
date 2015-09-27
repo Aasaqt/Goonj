@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/grid_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true" />
+    <TextView android:textColor="#ffffff"
+        android:id="@+id/grid_text"
+        android:background="#aa1565c0"
+        android:paddingLeft="10.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingBottom="5.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout><!-- From: file:/home/aasaqt/AndroidstudioProjects/NavigationDrawer/app/src/main/res/layout/main_item.xml -->

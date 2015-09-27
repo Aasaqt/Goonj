@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView android:id="@+id/aboutUsImage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bands"
+            android:adjustViewBounds="true"
+            android:layout_alignParentTop="true" />
+        <TextView android:textSize="35.0sp"
+            android:typeface="sans"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:id="@+id/aboutUsTitle"
+            android:paddingBottom="40.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Metamorphosis"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="0.01"
+            android:layout_alignBottom="@id/aboutUsImage" />
+        <ExpandableListView android:id="@+id/lvExp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutUsImage" />
+        <View android:background="#3D3C3A"
+            android:layout_width="fill_parent"
+            android:layout_height="5.0dip"
+            android:layout_alignBottom="@id/aboutUsImage" />
+    </RelativeLayout>
+
+
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#3f3f3f"/>
+
+</android.support.v4.widget.DrawerLayout>

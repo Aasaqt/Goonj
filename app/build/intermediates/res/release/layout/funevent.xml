@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="FUN EVENTS"
+                android:padding="15dp"
+                android:textSize="25dp"
+                android:textColor="#3f3f3f"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="And after the fierce competition, you can have light hearted fun, with our abundant fun events specifically engineered for you to sit back and enjoy."
+                    android:textSize="18dp"
+                    android:padding="15dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/rocknights"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#3f3f3f"/>
+</android.support.v4.widget.DrawerLayout><!-- From: file:/home/aasaqt/AndroidstudioProjects/NavigationDrawer/app/src/main/res/layout/funevent.xml -->

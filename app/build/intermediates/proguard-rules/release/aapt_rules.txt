@@ -1,0 +1,182 @@
+# view res/layout/aboutus.xml #generated:2
+# view res/layout/activity_main.xml #generated:1
+# view res/layout/bands.xml #generated:2
+# view res/layout/bhangra.xml #generated:2
+# view res/layout/biohunt.xml #generated:2
+# view res/layout/brandquiz.xml #generated:2
+# view res/layout/bugsmash.xml #generated:2
+# view res/layout/computerquiz.xml #generated:2
+# view res/layout/contactus.xml #generated:2
+# view res/layout/csi.xml #generated:2
+# view res/layout/culturalevent.xml #generated:2
+# view res/layout/debate.xml #generated:2
+# view res/layout/director.xml #generated:2
+# view res/layout/edmnight.xml #generated:2
+# view res/layout/facecanvas.xml #generated:2
+# view res/layout/fantasyquiz.xml #generated:2
+# view res/layout/fashionshow.xml #generated:2
+# view res/layout/fineart.xml #generated:2
+# view res/layout/funevent.xml #generated:2
+# view res/layout/groupdance.xml #generated:2
+# view res/layout/hackathon.xml #generated:2
+# view res/layout/hallabol.xml #generated:2
+# view res/layout/idiots.xml #generated:2
+# view res/layout/impromptu.xml #generated:2
+# view res/layout/literaryevent.xml #generated:2
+# view res/layout/looseit.xml #generated:2
+# view res/layout/main.xml #generated:1
+# view res/layout/manualcart.xml #generated:2
+# view res/layout/mazesolver.xml #generated:2
+# view res/layout/mrgoonj.xml #generated:2
+# view res/layout/pickplace.xml #generated:2
+# view res/layout/potpori.xml #generated:2
+# view res/layout/rangeela.xml #generated:2
+# view res/layout/register.xml #generated:2
+# view res/layout/robowars.xml #generated:2
+# view res/layout/sponsor.xml #generated:2
+# view res/layout/sportquiz.xml #generated:2
+# view res/layout/sports.xml #generated:2
+# view res/layout/starnight.xml #generated:2
+# view res/layout/submerge.xml #generated:2
+# view res/layout/technicalevent.xml #generated:2
+# view res/layout/theatre.xml #generated:2
+# view res/layout/trashion.xml #generated:2
+# view res/layout/triangle.xml #generated:2
+# view res/layout/trivialpursuit.xml #generated:2
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.example.android.goonj.AboutUsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.example.android.goonj.ContactUsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.example.android.goonj.HomeActivty { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.example.android.goonj.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.example.android.goonj.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.example.android.goonj.SponsorActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class culturalevents.Bands { <init>(...); }
+
+# view AndroidManifest.xml #generated:149
+-keep class culturalevents.Bhangra { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class culturalevents.FashionShow { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class culturalevents.GroupDance { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class culturalevents.LooseIt { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class culturalevents.MrGoonj { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class events.CulturalEventsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class events.EdmNightActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class events.FineArtsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class events.FunEventsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class events.LiteraryEventsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class events.SportsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class events.StarNightsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class events.TechnicalEventsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class events.TheatreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class finearts.FaceCanvas { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class finearts.Rangeela { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class finearts.Trashion { <init>(...); }
+
+# view AndroidManifest.xml #generated:177
+-keep class literaryevents.BrandQuiz { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class literaryevents.ComputerQuiz { <init>(...); }
+
+# view AndroidManifest.xml #generated:201
+-keep class literaryevents.Debate { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class literaryevents.FantasyQuiz { <init>(...); }
+
+# view AndroidManifest.xml #generated:197
+-keep class literaryevents.Idiots { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class literaryevents.PotPori { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class literaryevents.SportQuiz { <init>(...); }
+
+# view AndroidManifest.xml #generated:193
+-keep class literaryevents.TrivialPursuit { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class technicalevents.BioHunt { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class technicalevents.BugSmash { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class technicalevents.Csi { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class technicalevents.Hackathon { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class technicalevents.ManualCart { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class technicalevents.MazeSolver { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class technicalevents.PicknPlace { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class technicalevents.RoboWarrior { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class technicalevents.Submerge { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class technicalevents.Triangle { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class theatre.Director { <init>(...); }
+
+# view AndroidManifest.xml #generated:209
+-keep class theatre.HallaBol { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+-keep class theatre.Impromptu { <init>(...); }
+

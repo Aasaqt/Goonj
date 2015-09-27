@@ -1,0 +1,11 @@
+buildTypes {
+    release {
+        runProguard false
+        def signingConfig = {
+            storeFile file('/home/aasaqt/Documents/')
+            storePassword 'mypassword'
+            keyAlias 'MyAndroidKey'
+            keyPassword 'mypassword'
+        }
+    }
+} 
